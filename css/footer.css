@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+footer{
+	background: #F0F3FA;
+    text-align: center;
+
+}
+
+.f-flex{
+	display: flex;
+	justify-content:center;
+	    padding: 26px 0 0;
+}
+
+.fTitle{
+	margin-bottom: 25px;
+}
+.flex1{
+	margin-right: 90px;
+}
+.fTitle p{
+	text-align: left;
+	color: #00A0DC;
+	font-size: 14px;
+	font-weight: bold;
+}
+.fTitle ul {
+	text-align: left;
+}
+.fTitle ul li{
+	display: inline-block;
+	font-size: 12px;
+	color: #232323;
+}
+.fTitle ul li a:hover{
+	color: #646464;
+}
+.copyright{
+	background: #00A0DC;
+	height: 64px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #fff;
+}
+@media screen and (max-width: 780px){
+.f-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.fTitle{
+	margin-bottom: 10px;
+}
+.flex1,.flex2{
+	  margin: 0 50px;
+}
+.copyright{padding: 20px 50px; height: auto;}
+}
+@media screen and (max-width: 480px){
+.fTitle p{font-size: 12px;}
+.copyright{font-size: 10px; }
+.flex1,.flex2{ margin: 0 40px;font-size: 10px;}
+}
+
