@@ -42,9 +42,10 @@ h2{font-size: 42px;color: #FFEB3B;}
   #newsgrid .pic-item img{width: 280px;min-height: 110px;max-height: 90px;max-width: 146px;}
 }
 @media screen and (max-width: 480px) {
+  .flex-item h3{line-height: 1.4;}
   .mb-submit .submit-text {padding: 4px 18px 4px 10px;}
+  .flex-item .date{font-size: 10px;padding: 0 15px 4px 0;}
   .flex-item {height: 110px;}
-  .flex-item h3{font-size: 14px; padding: 0 15px 0 0;}
   #newsgrid .pic-item img {width: 120px;min-height: 93px;}
 }
 @media screen and (max-width: 320px) {
