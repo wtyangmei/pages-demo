@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+.nav .wrapper {width: 1500px;position: relative;margin: 0 auto;clear: both;zoom:1;}
+.nav .wrapper:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both; height: 0;}
+@media screen and (max-width: 1400px) {.nav .wrapper {width:95%;}}
 /*--上方導航--*/
 .nav ul {padding: 10px 0px;text-align: right;}
 .nav ul li {list-style: none;display: inline-block;vertical-align: middle;}
