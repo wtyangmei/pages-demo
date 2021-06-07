@@ -53,11 +53,15 @@
 }
 .icon-icon_comment:before {
   content: "\e904";
-  color: #4b4d4f;
+  color: #006EAA;
 }
 .icon-icon_fb .path1:before {
   content: "\e905";
   color: rgb(133, 133, 133);
+}
+.icon-icon_fb:hover .path1:before{
+  content: "\e905";
+  color: rgb(24,119,242);
 }
 .icon-icon_fb .path2:before {
   content: "\e906";
@@ -66,15 +70,21 @@
 }
 .icon-icon_file:before {
   content: "\e907";
-  color: #4b4d4f;
+  color: #006EAA;
 }
+
 .icon-icon_home:before {
   content: "\e908";
-  color: #4b4d4f;
+  color: #006EAA;
 }
+
 .icon-icon_line .path1:before {
   content: "\e909";
   color: rgb(133, 133, 133);
+}
+.icon-icon_line:hover .path1:before {
+  content: "\e909";
+    color: #00B900;
 }
 .icon-icon_line .path2:before {
   content: "\e90a";
@@ -101,9 +111,33 @@
   margin-left: -1em;
   color: rgb(133, 133, 133);
 }
+.icon-icon_line:hover .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: #00B900;
+}
+.icon-icon_line:hover .path4:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: #00B900;
+}
+.icon-icon_line:hover .path5:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: #00B900;
+}
+.icon-icon_line:hover .path6:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: #00B900;
+}
 .icon-icon_mail .path1:before {
   content: "\e90f";
   color: rgb(133, 133, 133);
+}
+.icon-icon_mail:hover .path1:before {
+  content: "\e90f";
+  color:#006EAA;
 }
 .icon-icon_mail .path2:before {
   content: "\e910";
@@ -119,6 +153,10 @@
   content: "\e912";
   color: rgb(133, 133, 133);
 }
+.icon-icon_message:hover .path1:before {
+  content: "\e912";
+  color: rgb(0,120,255);
+}
 .icon-icon_message .path2:before {
   content: "\e913";
   margin-left: -1em;
@@ -126,20 +164,25 @@
 }
 .icon-icon_money:before {
   content: "\e914";
-  color: #4b4d4f;
+  color: #006EAA;
 }
 .icon-icon_note:before {
   content: "\e915";
-  color: #4d4d4d;
+  color: #006EAA;
 }
 .icon-icon_pen:before {
   content: "\e916";
-  color: #4b4d4f;
+  color: #006EAA;
 }
 .icon-icon_Print .path1:before {
   content: "\e917";
   color: rgb(133, 133, 133);
 }
+.icon-icon_Print:hover .path1:before {
+  content: "\e917";
+  color:#006EAA;
+}
+
 .icon-icon_Print .path2:before {
   content: "\e918";
   margin-left: -1em;
@@ -155,11 +198,15 @@
 }
 .icon-icon_step:before {
   content: "\e91b";
-  color: #4b4d4f;
+  color: #006EAA;
 }
 .icon-icon_twitter .path1:before {
   content: "\e91c";
   color: rgb(133, 133, 133);
+}
+.icon-icon_twitter:hover .path1:before {
+  content: "\e91c";
+  color: rgb(29,161,242);
 }
 .icon-icon_twitter .path2:before {
   content: "\e91d";
