@@ -173,12 +173,12 @@ icon-bars {background:#fff;position: absolute;left: 1px;top: 45%;height: 2px;wid
 
 #mobile-menu {z-index: 10;position: absolute;left: 0;background: none;border-radius: 0;border: none;top: -10px;}
 #mb-overlay {width: 30rem;position: fixed;top: 65px;left: 0;right: 0;bottom: 0;background: #006EAA;visibility: hidden;text-align: left;overflow: hidden;transition: all 0.1s ease-in;z-index: 9;}
-.overlay-content {display: block;position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 75%;height: 88%;text-align: center;margin: auto;}
+.overlay-content {display: block;position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 75%;height: 92%;text-align: center;margin: auto;}
 .overlay-content ul {list-style: none;}
 .overlay-content li {display: block;padding: 5px 0 5px 0;}
 .overlay-content li a{
   border-bottom: #FFEB3B 1px solid;color: #fff;display: block;font-size: 24px;
-  letter-spacing: 4px;padding: 25px 0;text-align: left;text-transform: uppercase;-webkit-transition: color 0.3s ease;transition: color 0.3s ease;
+  letter-spacing: 4px;padding: 12px 0;text-align: left;text-transform: uppercase;-webkit-transition: color 0.3s ease;transition: color 0.3s ease;
 }
 
 .overlay-content li:last-child a{border-bottom:none;}
