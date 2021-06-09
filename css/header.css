@@ -178,17 +178,20 @@ icon-bars {background:#fff;position: absolute;left: 1px;top: 45%;height: 2px;wid
 .overlay-content li {display: block;padding: 5px 0 5px 0;}
 .overlay-content li a{
   border-bottom: #FFEB3B 1px solid;color: #fff;display: block;font-size: 24px;
-  letter-spacing: 4px;padding: 27px 0;text-align: left;text-transform: uppercase;-webkit-transition: color 0.3s ease;transition: color 0.3s ease;
+  letter-spacing: 4px;padding: 25px 0;text-align: left;text-transform: uppercase;-webkit-transition: color 0.3s ease;transition: color 0.3s ease;
 }
-.overlay-content ul span{float: right;}
+
+.overlay-content li:last-child a{border-bottom:none;}
+.overlay-content ul span{float: right; font-size: 16px;line-height: 40px;}
 .overlay-content li a:hover,
 .overlay-content li a:active {color:#fff;-webkit-transition: color 0.3s ease;transition: color 0.3s ease;}
 .overlay-content .searchBlock {position: relative;}
 .overlay-content .searchInput {font-size: .875rem;}
 .overlay-content  .searchInput {border-radius: 69px;width: 100%;height: 2.5rem;padding: 0 8px 0 48px;outline: none;border: none;}
 /*.overlay-content .magnifier svg {width: 26px;height: 26px;top: 7px;left: 15px;position: absolute;vertical-align: middle;}*/
-
-
+ .overlay-content .sub-menu li a{font-size: 16px;border: none;padding: 5px 0;color: #fff;}
+.overlay-content .sub-menu li:last-child a{border-bottom: #FFEB3B 1px solid;padding-bottom: 24px;}
+.overlay-content .sub-menu li:first-child a{padding-top: 0px;}
 .overlay-content .icon-icon_arrow-forward{position: absolute;top: 12px;right: 18px;}
 ::placeholder {color: #0F4C83;;opacity: 1; /* Firefox */}
 :-ms-input-placeholder { /* Internet Explorer 10-11 */color: #0F4C83;;}
