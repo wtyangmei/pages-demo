@@ -32,7 +32,7 @@ header nav{background-color: #00A0DC;display: flex;width: 100%;clear: both;zoom:
 
 /*banner-2*/
 .banner-2{position: relative;}
-.banner-2 .submit {width: 26%;position: absolute;left: 17.5%; bottom: 16%;z-index: 9; display: flex;}
+.banner-2 .submit {width: 26%;position: absolute;left: 20%; bottom: 16%;z-index: 9; display: flex;}
 .banner-2 .submit:hover{opacity: 0.9;}
 .banner-2 .submit-text {width: 100%;padding: 11px 22px;border-radius: 5px 0 0 5px;outline: none;background: #00A0DC;color: #E5E5E5;font-size: 14px;text-align: justify;box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);}
 .banner-2 .submit-texy:focus{color: #006EAA;}
@@ -48,7 +48,7 @@ header nav{background-color: #00A0DC;display: flex;width: 100%;clear: both;zoom:
 
   .lg-img{display: block;}
   .m-img{display: none;}
-@media screen and (min-width: 1300px) and (max-width: 1500px) {
+@media screen and (min-width: 1281px) and (max-width: 1700px) {
   .submit {width: 30%}
   .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
 
@@ -64,8 +64,8 @@ header nav{background-color: #00A0DC;display: flex;width: 100%;clear: both;zoom:
   .submit {width: 33%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
   .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
 
-  .banner-2 .submit {width: 33%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
-  .banner-2 .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
+  .banner-2 .submit {width: 35%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
+  .banner-2 .submit-text {padding: 12px 18px;font-size: 12px;line-height: 1.4}
   .banner-3 .submit {width: 33%;position: absolute;left: 9%; bottom: 16%;z-index: 9; display: flex;}
   .banner-3 .submit-text {padding:18px;font-size: 12px;line-height: 1.5}
 }
