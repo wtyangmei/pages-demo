@@ -79,58 +79,19 @@
 }
 
 .icon-icon_line .path1:before {
-  content: "\e909";
+  content: "\e902";
   color: rgb(133, 133, 133);
 }
-.icon-icon_line:hover .path1:before {
-  content: "\e909";
-    color: #00B900;
-}
 .icon-icon_line .path2:before {
-  content: "\e90a";
+  content: "\e909";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
-.icon-icon_line .path3:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: rgb(133, 133, 133);
+.icon-icon_line:hover .path1:before {
+  content: "\e902";
+    color: #00B900;
 }
-.icon-icon_line .path4:before {
-  content: "\e90c";
-  margin-left: -1em;
-  color: rgb(133, 133, 133);
-}
-.icon-icon_line .path5:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(133, 133, 133);
-}
-.icon-icon_line .path6:before {
-  content: "\e90e";
-  margin-left: -1em;
-  color: rgb(133, 133, 133);
-}
-.icon-icon_line:hover .path3:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: #00B900;
-}
-.icon-icon_line:hover .path4:before {
-  content: "\e90c";
-  margin-left: -1em;
-  color: #00B900;
-}
-.icon-icon_line:hover .path5:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: #00B900;
-}
-.icon-icon_line:hover .path6:before {
-  content: "\e90e";
-  margin-left: -1em;
-  color: #00B900;
-}
+
 .icon-icon_mail .path1:before {
   content: "\e90f";
   color: rgb(133, 133, 133);
