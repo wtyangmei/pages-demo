@@ -12,7 +12,7 @@ a:active {color: #232323;}
 /*index*/
 .flex-container {max-width: 1300px;margin: 0 auto;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
 .flex-item {position: relative;background: #fff;border: 1px solid #00A0DC;width: 23.5%;height: 360px;margin-top: 10px;padding-bottom: 5px;margin-bottom: 30px;}
-.flex-item:hover{border: 1px solid #FEC130;}
+.flex-item:hover{border: 1px solid #FEC130;box-shadow: 0 0 0 2px #FEC130;}
 .flex-item .date{font-size: 0.75rem;padding: 0 22px 8px;color: #0F4C83;position: absolute;bottom: 0;}  
 .pic-item h3{padding: 0 22px;margin-top: 8px;font-size: 1.125rem;text-align: justify;color: #194866;font-weight: 700;}
 .pic-item img{display: block;width: 100%;min-height: 225px;max-height: 225px;object-fit: cover;}

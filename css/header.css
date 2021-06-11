@@ -29,11 +29,33 @@ header nav{background-color: #00A0DC;display: flex;width: 100%;clear: both;zoom:
 }
 .submit-texy:focus{color: #006EAA;}
 .submit-btn {font-family: 'Microsoft JhengHei', 'Noto Sans TC', Arial, sans-serif;width: 88px;border: 1px solid  #FEC130;background:  #FEC130;text-align: center;color: #006EAA;border-radius: 0 5px 5px 0;cursor: pointer;font-size: 14px;box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);}
+
+/*banner-2*/
+.banner-2{position: relative;}
+.banner-2 .submit {width: 26%;position: absolute;left: 17.5%; bottom: 16%;z-index: 9; display: flex;}
+.banner-2 .submit:hover{opacity: 0.9;}
+.banner-2 .submit-text {width: 100%;padding: 11px 22px;border-radius: 5px 0 0 5px;outline: none;background: #00A0DC;color: #E5E5E5;font-size: 14px;text-align: justify;box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);}
+.banner-2 .submit-texy:focus{color: #006EAA;}
+.banner-2 .submit-btn {font-family: 'Microsoft JhengHei', 'Noto Sans TC', Arial, sans-serif;width: 88px;border: 1px solid  #FEC130;background:  #FEC130;text-align: center;color: #006EAA;border-radius: 0 5px 5px 0;cursor: pointer;font-size: 14px;box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);}
+
+/*banner-3*/
+.banner-3{position: relative;}
+.banner-3 .submit {width: 26%;position: absolute;left: 20%; bottom: 16%;z-index: 9; display: flex;}
+.banner-3 .submit:hover{opacity: 0.9;}
+.banner-3 .submit-text {width: 100%;padding: 18px 22px;border-radius: 5px 0 0 5px;outline: none;background: #00A0DC;color: #E5E5E5;font-size: 14px;text-align: justify;box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);}
+.banner-3 .submit-texy:focus{color: #006EAA;}
+.banner-3 .submit-btn {font-family: 'Microsoft JhengHei', 'Noto Sans TC', Arial, sans-serif;width: 88px;border: 1px solid  #FEC130;background:  #FEC130;text-align: center;color: #006EAA;border-radius: 0 5px 5px 0;cursor: pointer;font-size: 14px;box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);}
+
   .lg-img{display: block;}
   .m-img{display: none;}
-@media screen and (min-width: 1400px) and (max-width: 1500px) {
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
   .submit {width: 30%}
   .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
+
+  .banner-2  .submit {width: 30%;position: absolute;bottom: 15%;z-index: 9; display: flex;}
+  .banner-2  .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
+  .banner-3  .submit {width: 26%;position: absolute;bottom: 15%;z-index: 9; display: flex;}
+  .banner-3  .submit-text {padding: 16px 18px;font-size: 12px;line-height: 1.4}
 }
 @media screen and (max-width: 1280px){
   .lg-img{display: none;}
@@ -41,13 +63,23 @@ header nav{background-color: #00A0DC;display: flex;width: 100%;clear: both;zoom:
   .banner{margin-bottom: 0px;}
   .submit {width: 33%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
   .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
+
+  .banner-2 .submit {width: 33%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
+  .banner-2 .submit-text {padding: 8px 18px;font-size: 12px;line-height: 1.4}
+  .banner-3 .submit {width: 33%;position: absolute;left: 9%; bottom: 16%;z-index: 9; display: flex;}
+  .banner-3 .submit-text {padding:18px;font-size: 12px;line-height: 1.5}
 }
 @media screen and (max-width: 1000px){
   .submit {width: 45%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
   .submit-text {padding: 8px 18px;font-size: 10px;line-height: 1.4}
+
+  .banner-2 .submit {width: 45%;position: absolute;left: 9%; bottom: 12%;z-index: 9; display: flex;}
+  .banner-2 .submit-text {padding: 8px 18px;font-size: 10px;line-height: 1.4}
+  .banner-3 .submit {width: 36%;position: absolute;left: 9%; bottom: 15%;z-index: 9; display: flex;}
+  .banner-3 .submit-text {padding: 18px;font-size: 12px;line-height: 1.6;}
 }
 
-@media screen and (max-width: 900px){.nav, header nav , .menu, .banner {display: none;}}
+@media screen and (max-width: 900px){.nav, header nav , .menu, .banner, .banner-2,.banner-3 {display: none;}}
 .mb-menu, .mb-banner{display: none;}
 .mb-banner img{margin-top: 60px;background-color: #F0F3FA;}
 .mb-banner .mb-submit{
