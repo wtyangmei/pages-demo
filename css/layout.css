@@ -64,6 +64,12 @@ a:active {color: #232323;}
     font-weight: 700;
     border-bottom: 1px dotted #FAF1E6;
 }
+@media screen and (max-width: 900px) {
+.gdpr-bar>div {display: block;}
+.gdpr-bar .left {max-width: 100%;}
+.gdpr-bar button {width: 100%;}
+}
+
 /*index*/
 .flex-container {max-width: 1300px;margin: 0 auto;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
 .flex-item {position: relative;background: #fff;border: 1px solid #00A0DC;width: 23.5%;height: 360px;margin-top: 10px;padding-bottom: 5px;margin-bottom: 30px;}
@@ -72,8 +78,12 @@ a:active {color: #232323;}
 .pic-item h2{padding: 0 22px;margin-top: 8px; font-size :20px;text-align: justify;color: #194866;font-weight: 700;letter-spacing: 0.2px;line-height: 1.4;}
 .pic-item img{display: block;width: 100%;min-height: 225px;max-height: 225px;object-fit: cover;}
 .mb-pic img{display: none;}
-.word-item h2{height: 160px;margin-bottom: 5px;overflow: hidden;padding: 45px 22px 0px;font-size :20px;text-align: justify;color: #194866;font-weight: 700;line-height: 1.4;}
+.word-item h2{height: 150px;padding: 45px 22px 0px;font-size :20px;text-align: justify;color: #194866;font-weight: 700;line-height: 1.4;}
 .word-item .desc{display: block;padding: 0 22px;color: #646464;font-size: 0.875rem;text-align: justify;}
+@media screen and (max-width: 1280px) {
+.word-item h2 {
+    height: 165px;}
+}
 @media screen and (min-width: 1023px) and (max-width: 1280px) {
   .flex-item {height: 400px;}
 }
