@@ -89,6 +89,7 @@ a:active {color: #232323;}
 }
 @media screen and (max-width: 1024px) {
   .flex-item {width: 48.5%;}
+  .word-item h2 {height: 140px;}
   .pic-item img{max-height: 250px;min-height: 250px;}
   .pic-item h2{line-height: 1.4;}
 }
