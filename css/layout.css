@@ -79,7 +79,7 @@ a:active {color: #232323;}
 .pic-item img{display: block;width: 100%;min-height: 225px;max-height: 225px;object-fit: cover;}
 .mb-pic img{display: none;}
 .word-item h2{height: 150px;padding: 45px 22px 0px;font-size :20px;text-align: justify;color: #194866;font-weight: 700;line-height: 1.4;}
-.word-item .desc{display: block;padding: 0 22px;color: #646464;font-size: 0.875rem;text-align: justify;}
+.word-item .desc{display: block;padding: 0 22px;color: #646464;font-size: 0.875rem;text-align: left;}
 @media screen and (max-width: 1280px) {
 .word-item h2 {
     height: 165px;}
@@ -90,7 +90,7 @@ a:active {color: #232323;}
 @media screen and (max-width: 1024px) {
   .flex-item {width: 48.5%;}
   .word-item h2 {height: 140px;}
-  .pic-item img{max-height: 250px;min-height: 250px;}
+  .pic-item img{max-height: 230px;min-height: 230px;}
   .pic-item h2{line-height: 1.4;}
 }
 @media screen and (max-width: 768px) {
