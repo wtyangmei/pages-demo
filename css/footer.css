@@ -43,6 +43,9 @@ footer{
     font-size: 12px;
     color: #fff;
 }
+@media screen and (max-width: 1024px){
+.flex1{margin-right: 50px;}
+}
 @media screen and (max-width: 780px){
 .f-flex{
   display: flex;
@@ -61,6 +64,6 @@ footer{
 @media screen and (max-width: 480px){
 .fTitle p{font-size: 12px;}
 .copyright{font-size: 10px; }
-.flex1,.flex2{ margin: 0 40px;font-size: 10px;}
+.flex1,.flex2{ margin: 0 30px;font-size: 10px;}
 }
 
