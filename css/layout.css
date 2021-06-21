@@ -154,7 +154,7 @@ article p a:link {color: #006EAA;}
   .links .link-list ul{width: 98%;margin-left: 0.85%;}
   .article-content article h1 ,.about-content article h1{font-size: 1.5rem;margin-bottom: 8px;line-height: 1.4;}
   .updatetimes {font-size: 0.875rem;padding-top: 8px;color: #646464;}
-  article p{font-size: 0.875rem; line-height: 1.6;text-align: justify;margin-bottom: 30px;color: #3C4041;}
+  article p{font-size: 1rem; line-height: 1.6;text-align: justify;margin-bottom: 30px;color: #3C4041;}
   article figcaption {margin-bottom: 20px;font-size: 0.75rem;}
 }
 @media screen and (max-width: 480px){
