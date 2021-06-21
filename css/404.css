@@ -5,7 +5,7 @@ body {min-height: 100%;font-family: 'Microsoft JhengHei', 'Noto Sans TC', Arial,
 a {text-decoration: none;transition: all 0.1s ease-in-out;}
 /*404*/
 #bg-404{background-color: #F9FAFC!important;}
-.wrapper-404 {display: flex;flex-direction: column;align-items: center;max-width: 1070px;margin: 0 auto 10%;}
+.wrapper-404 {display: flex;flex-direction: column;align-items: center;max-width: 1070px;margin: 0 auto 5%;}
 .wrapper-404 img{width: 80%;}
 .error-text h1 {display: block;text-transform: uppercase;color: #0F4C83;font-size: 250%;font-weight: bolder;text-align: center;margin-top: 10px;}
 .textbox {max-width: 800px;margin: 0 auto;display: flex;flex-direction: column;}
@@ -16,4 +16,7 @@ a {text-decoration: none;transition: all 0.1s ease-in-out;}
 .error-text h1 {font-size: 1.8rem;}
 .mcenter {text-align: center;}
 .textbox .btn{font-size: 1.25rem;}
+}
+@media screen and (max-width: 768px){
+.wrapper-404 {margin: 65px auto 5%;}
 }
