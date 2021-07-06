@@ -158,6 +158,7 @@ article p a:link {color: #006EAA;}
   .updatetimes {font-size: 0.875rem;padding-top: 8px;color: #646464;}
   article p{font-size: 1rem; line-height: 1.6;text-align: justify;margin-bottom: 30px;color: #3C4041;}
   article figcaption {margin-bottom: 20px;font-size: 0.75rem;}
+
 }
 @media screen and (max-width: 480px){
  .links .link-list ul {width: 96%;margin-left: 2.85%;}
@@ -165,7 +166,13 @@ article p a:link {color: #006EAA;}
 
 /*about*/
 .about-content{display: flex;width: 1000px;margin: 0 auto;}
+.about-content h2{font-size: 1.5rem;margin: 10px auto;font-weight: 600;color: #3C4041;}
 .about-content article{margin-bottom: 50px;}
+.about-content article p a{color: #006EAA;font-weight: bold; border-bottom: 1px solid #006EAA;}
+.about-content article ul{margin: -10px 0px;}
+.about-content article ul li{font-size:18px; line-height:1.8;}
+.about-content article .part{font-size:18px; line-height:1.8;margin:-24px 0 20px;}
+article .warn{background-color: #FEC130;border: none;color: #194866;padding: 0.2rem 0.8rem;font-size: 18px;font-weight: 700;text-align: center;text-decoration: none;display: inline-block;margin-bottom: 10px;}
 #navi {list-style: none;display: block;}
 #navi li {display: block;line-height: 0;background: none;font-size:1.25rem;color: #006EAA;font-weight: bold;cursor: pointer;margin-bottom: 50px;}
 #navi a{ color: #006EAA;padding-left: 10px;} 
@@ -181,5 +188,8 @@ article p a:link {color: #006EAA;}
 
 @media screen and (max-width: 1280px) {.about-content {width:95%;}}
 @media screen and (max-width: 900px) { .about-content  .leftSide {display: none;}.about-content .rightSide{width: 100%}.about-content {margin-top: 65px;}}
+@media screen and (max-width: 768px) {  .about-content h2 {font-size: 1.375rem;}
+.about-content article .part {font-size: 1rem;}
+}
 
 
