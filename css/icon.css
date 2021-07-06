@@ -24,7 +24,37 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-icon_home-2 .path1:before {
+  content: "\e902";
+  color: rgb(133, 133, 133);
+}
+.icon-icon_home-2 .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon_home-2:hover .path1:before {
+  content: "\e902";
+  color:#006EAA;
+}
+.icon-icon_link .path1:before {
+  content: "\e90c";
+  color: rgb(133, 133, 133);
+}
+.icon-icon_link .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon_link .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-icon_link:hover .path1:before {
+  content: "\e90c";
+  color:#006EAA;
+}
 .icon-icon_arrow-left .path1:before {
   content: "\e901";
   color: rgb(224, 224, 224);
@@ -79,11 +109,11 @@
 }
 
 .icon-icon_line .path1:before {
-  content: "\e902";
+  content: "\e90a";
   color: rgb(133, 133, 133);
 }
 .icon-icon_line .path2:before {
-  content: "\e909";
+  content: "\e90b";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
