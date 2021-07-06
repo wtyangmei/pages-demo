@@ -172,6 +172,8 @@ article p a:link {color: #006EAA;}
 .about-content article ul{margin: -10px 0px;}
 .about-content article ul li{font-size:18px; line-height:1.8;}
 .about-content article .part{font-size:18px; line-height:1.8;margin:-24px 0 20px;}
+.about-content article .download a{font-size:18px;font-weight: 600;color: #006EAA;}
+.about-content article span{color: #006EAA;}
 article .warn{background-color: #FEC130;border: none;color: #194866;padding: 0.2rem 0.8rem;font-size: 18px;font-weight: 700;text-align: center;text-decoration: none;display: inline-block;margin-bottom: 10px;}
 #navi {list-style: none;display: block;}
 #navi li {display: block;line-height: 0;background: none;font-size:1.25rem;color: #006EAA;font-weight: bold;cursor: pointer;margin-bottom: 50px;}
@@ -188,8 +190,6 @@ article .warn{background-color: #FEC130;border: none;color: #194866;padding: 0.2
 
 @media screen and (max-width: 1280px) {.about-content {width:95%;}}
 @media screen and (max-width: 900px) { .about-content  .leftSide {display: none;}.about-content .rightSide{width: 100%}.about-content {margin-top: 65px;}}
-@media screen and (max-width: 768px) {  .about-content h2 {font-size: 1.375rem;}
-.about-content article .part {font-size: 1rem;}
-}
+@media screen and (max-width: 768px) { .about-content h2 {font-size: 1.375rem;}.about-content article .part {font-size: 1rem;}.about-content article .download a{font-size:1rem;}}
 
 
