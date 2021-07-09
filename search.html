@@ -445,7 +445,15 @@
 
 
 
-
+<script type="text/javascript">
+  //nav active
+  $(document).ready(function(){
+  $('.menu li a').click(function(){
+    $('li a').removeClass("menuactive");
+    $(this).addClass("menuactive");
+});
+});
+</script>
 <script type="text/javascript">
   function tranformToX(event) {
   event.preventDefault();

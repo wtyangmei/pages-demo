@@ -24,13 +24,13 @@ a:active {color: #232323;}
 
 /*index*/
 .flex-container {max-width: 1300px;margin: 0 auto;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
-.flex-item {position: relative;background: #fff;border: 1px solid #00A0DC;width: 23.5%;height: 360px;margin-top: 10px;padding-bottom: 5px;margin-bottom: 30px;}
+.flex-item {position: relative;background: #fff;border: 1px solid #00A0DC;width: 23.5%;height: 370px;margin-top: 10px;padding-bottom: 5px;margin-bottom: 30px;}
 .flex-item:hover{border: 1px solid #FEC130;box-shadow: 0 0 0 2px #FEC130;}
-.flex-item .date{font-size: 0.75rem;padding: 0 22px 8px;color: #0F4C83;position: absolute;bottom: 0;}  
-.pic-item h2{padding: 0 22px;margin-top: 8px; font-size :20px;text-align: left;color: #194866;font-weight: 700;letter-spacing: 0.2px;line-height: 1.4;}
+.flex-item .date{font-size: 0.75rem;padding: 0 22px 8px;color: #0F4C83;position: absolute;bottom: 0;line-height: 1.2;}  
+.pic-item h2{padding: 0 22px;margin-top: 6px; font-size :20px;text-align: left;color: #194866;font-weight: 700;letter-spacing: 0.2px;line-height: 1.4;}
 .pic-item img{display: block;width: 100%;min-height: 225px;max-height: 225px;object-fit: cover;}
 .mb-pic img{display: none;}
-.word-item h2{height: 150px;padding: 45px 22px 0px;font-size :20px;text-align: left;color: #194866;font-weight: 700;line-height: 1.4;}
+.word-item h2{height: 150px;padding: 45px 22px 0px;font-size :20px;text-align: left;color: #194866;font-weight: 700;line-height: 1.4;word-break: break-all;}
 .word-item .desc{display: block;padding: 0 22px;color: #646464;font-size: 0.875rem;text-align: left;}
  #seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #004E98;margin-bottom: 50px;}
 @media screen and (max-width: 1280px) {
@@ -55,7 +55,8 @@ a:active {color: #232323;}
   .pic-item .title{order: 1;width: 100%;}
   .word-item .desc{display: none;}
   .flex-item h2{font-size: 1rem;padding: 0 15px 0 0;margin-top: 0px;}
-  .flex-item .date{font-size: 0.625rem;padding: 0 15px 10px 0;}
+  .flex-item .date{font-size: 0.625rem; padding: 0 15px 6px 0;line-height: 1.2;margin-right: 110px;}
+  }
   #newsgrid .pic-item img, #seachgrid .pic-item img{width: 280px;min-height: 110px;max-height: 90px;max-width: 146px;}
   #seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #004E98;margin-bottom: 8px;margin-top: 10px;}
 }
@@ -109,15 +110,15 @@ a:active {color: #232323;}
 .share .publish_link{margin-top: 20px; }
 .share .publish_link li{margin-right: 4px;}
 .article-content article, .about-content .rightSide{width: 62%;}
-.article-content article h1 ,.about-content article h1{font-size: 2.25rem;text-align: justify;font-weight: bold;letter-spacing: 0.2px;margin-bottom: 10px;color: #0F4C82;line-height: 1.4;}
+.article-content article h1 ,.about-content article h1{font-size: 2.25rem;text-align: left;font-weight: bold;letter-spacing: 0.2px;margin-bottom: 10px;color: #0F4C82;line-height: 1.4;}
 .updatetimes{float: left;font-size: 0.875rem;line-height: 1.4;color: #646464;}
-article p{text-align: justify;margin-bottom: 30px;color: #3C4041;font-size:18px; line-height:1.8;}
+article p{text-align: left;margin-bottom: 30px;color: #3C4041;font-size:18px; line-height:1.8;}
 article strong{margin:8px 0;color: #3C4041;font-size: 1.125rem;}
 article img{width: 100%;margin-top: 20px;}
 article figcaption{margin-bottom: 20px;font-size: 0.875rem;color: #646464;}
 article figcaption:after {content: '';display: block;width: 75px;height: 2px;background-color: #FEC130;margin-top: 5px;}
 article p a:link {color: #006EAA;}
-#article p a{font-weight: bold;border-bottom: 1px solid #006EAA;color: #006EAA;}
+#article p a{font-weight: bold;border-bottom: 1px solid #006EAA;color: #006EAA;word-break: break-all;}
 .links{display: flex;flex-direction: row;margin-top: 20px;margin-bottom: 10px;}
 .link-title{width: 16%;}
 .link-title {font-size: 1.25rem;font-weight: bold;color: #006EAA;line-height: 1.5;border-top: 3px solid #006EAA;padding-bottom: 8px;margin-right: 30px;margin-top: 6px;padding-top: 5px;}
@@ -156,7 +157,7 @@ article p a:link {color: #006EAA;}
   .links .link-list ul{width: 98%;margin-left: 0.85%;}
   .article-content article h1 ,.about-content article h1{font-size: 1.5rem;margin-bottom: 8px;line-height: 1.4;}
   .updatetimes {font-size: 0.875rem;padding-top: 8px;color: #646464;}
-  article p{font-size: 1rem; line-height: 1.6;text-align: justify;margin-bottom: 30px;color: #3C4041;}
+  article p{font-size: 1rem; line-height: 1.6;margin-bottom: 30px;color: #3C4041;clear: both;}
   article figcaption {margin-bottom: 20px;font-size: 0.75rem;}
 
 }

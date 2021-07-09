@@ -19,7 +19,7 @@ header nav{background-color: #00A0DC;display: flex;width: 100%;clear: both;zoom:
 .logo img{width: 155px;vertical-align: text-top;}
 .menu .logo a{margin-right: 50px;}
 #search .icon-icon_search {line-height: 70px;padding-right: 10px;}
-
+.menuactive{  color:#FEC130!important;; font-weight: bold;}
 /*banner*/
 .submit {width: 26%;position: absolute;left: 16.5%; bottom: 25%;z-index: 9; display: flex;}
 .submit:hover{opacity: 0.9;}
