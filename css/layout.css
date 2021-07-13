@@ -32,6 +32,14 @@ a:active {color: #232323;}
 .mb-pic img{display: none;}
 .word-item h2{height: 150px;padding: 45px 22px 0px;font-size :20px;text-align: left;color: #194866;font-weight: 700;line-height: 1.4;word-break: break-all;}
 .word-item .desc{display: block;padding: 0 22px;color: #646464;font-size: 0.875rem;text-align: left;}
+.en h2{height: 167px;
+    padding: 45px 22px 0px;
+    font-size: 20px;
+    text-align: left;
+    color: #194866;
+    font-weight: 700;
+    line-height: 1.4;
+    word-break: keep-all;}
 #seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #00A0DC;margin-bottom: 50px;}
 #seachgrid  h1 span{font-size: 30px;font-weight: bold; text-align: center;color:#004E98;margin-bottom: 50px;border-bottom: 1px solid #FEC130;}
 .no-found{font-size: 45px;font-weight: bold; text-align: center;color:#004E98;margin-bottom:100px;}
