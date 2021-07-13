@@ -32,7 +32,9 @@ a:active {color: #232323;}
 .mb-pic img{display: none;}
 .word-item h2{height: 150px;padding: 45px 22px 0px;font-size :20px;text-align: left;color: #194866;font-weight: 700;line-height: 1.4;word-break: break-all;}
 .word-item .desc{display: block;padding: 0 22px;color: #646464;font-size: 0.875rem;text-align: left;}
- #seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #004E98;margin-bottom: 50px;}
+#seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #00A0DC;margin-bottom: 50px;}
+#seachgrid  h1 span{font-size: 30px;font-weight: bold; text-align: center;color:#004E98;margin-bottom: 50px;border-bottom: 1px solid #FEC130;}
+.no-found{font-size: 45px;font-weight: bold; text-align: center;color:#004E98;margin-bottom:100px;}
 @media screen and (max-width: 1280px) {
 .word-item h2 {
     height: 165px;}
@@ -56,8 +58,10 @@ a:active {color: #232323;}
   .word-item .desc{display: none;}
   .flex-item h2{font-size: 1rem;padding: 0 15px 0 0;margin-top: 0px;}
   .flex-item .date{font-size: 0.625rem; padding: 0 15px 6px 0;line-height: 1.2;margin-right: 110px;}
+  .word-item .date{margin-right: 0px;}
   #newsgrid .pic-item img, #seachgrid .pic-item img{width: 280px;min-height: 110px;max-height: 90px;max-width: 146px;}
-  #seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #004E98;margin-bottom: 8px;margin-top: 10px;}
+  #seachgrid h1{font-size: 30px;font-weight: bold; text-align: center;color: #00A0DC;margin-bottom: 8px;margin-top: 10px;}
+  .no-found {font-size: 35px;font-weight: bold;text-align: center;color: #004E98;margin: 30px;}
 }
 @media screen and (max-width: 480px) {
   .flex-item h2{line-height: 1.4;}
@@ -146,7 +150,7 @@ article p a:link {color: #006EAA;}
   .link-title {font-size: 1.25rem;padding-bottom: 8px;margin-right: 0px;}
   .link-title{width: 100%;}
   .links .link-list{margin-left: 2%; width: 98%;}
-  .article-content article h1 ,.about-content article h1{font-size: 1.25rem;margin-bottom: 30px;line-height: 1.4;}
+  .article-content article h1 ,.about-content article h1{font-size: 1.5rem;margin-bottom: 30px;line-height: 1.4;}
 }
 @media screen and (max-width: 768px) {
   .breadcrumb {padding: 24px 0 0;margin-bottom: 1.25rem;font-size: 0.875rem;}
