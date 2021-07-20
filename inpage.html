@@ -165,11 +165,6 @@
     <li><span class="icon-icon_twitter"><span class="path1"></span><span class="path2"></span></span></li>
     <li><span class="icon-icon_line"><span class="icon-icon_line"><span class="path1"></span><span class="path2"></span></span></li>
     <li><span class="icon-icon_link"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span></li>
-    <!--
-    <li><span class="icon-icon_message"><span class="path1"></span><span class="path2"></span></span></li>
-    <li><span class="icon-icon_mail"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span> </li>
-    <li><span class="icon-icon_Print"><span class="path1"></span><span class="path2"></span></span> </li> 
-  -->
   </ul>
   </div>
   <div class="publish_link">
@@ -177,7 +172,6 @@
     <ul>
     <li><a href="#" title="Pchome"><img src="img/search_pchomelogo.jpg"></a> </li>
     <li><a href="#" title="蕃薯藤"><img src="img/search_yamlogo.jpg"></a> </li>
-    <li><a href="#" title="Msn"><img src="img/search_msnlogo.jpg"></a> </li>
     <li><a href="#" title="Hinet"><img src="img/search_hinetlogo.jpg"></a> </li>
     <li><a href="#" title="新浪網"><img src="img/search_sinalogo.jpg"></a> </li>
     </ul>
@@ -229,7 +223,7 @@
         <p>5G驅動產業創新，將於2035年締造13.1兆美金全球經濟產出，顯見5G是未來經濟行為重要技術，因此在「數位轉型創新，釋放5G無限潛能」議程當中，邀請高通與聯騏技研（Nestech）、宇心生醫（QT Medical）、業安科技（YALLVEND）等新創團隊，分享從災害預測、居家醫療到零售模式的數位轉型實際案例。 <a href="#">內文中連結樣式</a></p>
 
         <div class="links">
-          <div class="link-title">相關連結</div>
+          <div class="link-title">文章附檔</div>
           <div class="link-list">
             <ul>
               <li><a href="#">TCA表示，InnoVEX FORUM將於六月三日登場，歡迎海內外科技產業、專業人士、新創業者、創投業者上網預先登錄，以便能準時線上收看！ (jpg檔)</a></li>
@@ -404,6 +398,24 @@ $(".lines-button.arrow.arrow-left").bind('click', tranformToX);
     });
 
 });
+</script>
+<script type="text/javascript">
+function msieversion() {
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+    {
+        alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
+    }
+    else  // If another browser, return 0
+    {
+        alert('otherbrowser');
+    }
+
+    return false;
+}
 </script>
 </body>
 </html>
